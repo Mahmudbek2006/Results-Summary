@@ -1,0 +1,143 @@
+.conta {
+    height: 475px;
+    width: 380px;
+    border: 1px solid hsl(252, 100%, 67%);
+    background-color: hsl(252, 100%, 67%);
+    border-radius: 30px;
+}
+
+.const{
+width: 380px;
+height: 475px;
+box-shadow: 30px 30px 30px hsl(221, 100%, 96%);
+border: 5px;
+border-radius: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.conti {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: hsl(224, 27%, 24%);
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.circle {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}  
+
+.numerator {
+    font-size: 49px;
+    position: relative;
+    top: 45px;
+}
+
+.denominator {
+    display: block;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.you {
+    text-align: center;
+}
+
+.me {
+    text-align: center;
+}
+
+.summary {
+    margin-left: 40px;
+    color:black;
+}
+
+.react {
+    margin-left: 10px;
+}
+.pl{
+    margin-left: 150px;
+}
+
+.memory {
+    margin-left: 10px;
+}
+
+.verbal p {
+    padding-left: 13px;
+}
+
+.visual p {
+    padding-left: 13px;
+}
+
+.div1 {
+    border: 1px;
+    background-color: hsl(0, 100%, 91%);
+    border-radius: 10px;
+    width: 300px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.div2 {
+    border: 1px;
+    background-color: hsl(32, 100%, 85%);
+    border-radius: 10px;
+    width: 300px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.verbal {
+    border: 1px;
+    background-color: hsla(166, 86%, 86%, 0.508);
+    border-radius: 10px;
+    width: 300px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.visual {
+    border: 1px;
+    background-color: hsl(232, 56%, 95%);
+    border-radius: 10px;
+    width: 300px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 650px) {
+    .container {
+        display: inline-block;
+    }
+}
